@@ -13,7 +13,7 @@ void main() {
   // Where the position is closer to 0.0 we get black (st.x = 0.0)
   // Where the position is closer to width (defined as 1.0) we get red (st.x = 1.0)
 
-  gl_FragColor = vec4(st.x,0.0,0.0,1.0); // R,G,B,A
+ //gl_FragColor = vec4(st.x,0.2,0.6,1.0); // R,G,B,A
 
   // you can only have one gl_FragColor active at a time, but try commenting the others out
   // try the green component
@@ -22,5 +22,5 @@ void main() {
 
   // try both the x position and the y position
   
-  //gl_FragColor = vec4(st.x,st.y,0.0,1.0); 
+gl_FragColor = vec4(st.x,st.y,0.0,1.0); 
 }

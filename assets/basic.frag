@@ -18,9 +18,9 @@ void main() {
   // you can only have one gl_FragColor active at a time, but try commenting the others out
   // try the green component
 
-  //gl_FragColor = vec4(0.0,st.x,0.0,1.0); 
+  gl_FragColor = vec4(0.0,st.x,0.0,1.0); 
 
   // try both the x position and the y position
   
-gl_FragColor = vec4(st.x,st.y,0.0,1.0); 
+// gl_FragColor = vec4(st.x,st.y,0.0,1.0); 
 }
